@@ -1,5 +1,4 @@
 # Reptile-Store-API
-
- ##Technologies 
- ###React
- ###Express
+##Technologies 
+###React
+###Express
