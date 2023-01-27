@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "specie": "Leopard Gecko",
+            "animal": "lizard",
+            "latin_name": "Eublepharis macularius",
+            "image": "leopard-gecko.jpg",
+            "life_span": "15-20",
+            "price": 20
+        },
+        {
+            "id": "2",
+            "specie": "Crestod Gecko",
+            "animal": "lizard",
+            "latin_name": "Correlophus ciliatus",
+            "image": "crested-gecko.jpg",
+            "life_span": "15-20",
+            "price": 40
+        },
+        {
+            "id": "3",
+            "specie": "Cornsnake",
+            "animal": "snake",
+            "latin_name": "Pantherophis guttatus",
+            "image": "cornsnake.jpg",
+            "life_span": "20-25",
+            "price": 30
+        },
+        {
+            "id": "4",
+            "specie": "Ball python",
+            "animal": "snake",
+            "latin_name": "Python regius",
+            "image": "ball-python.jpg",
+            "life_span": "20-30",
+            "price": 50
+        },
+        {
+            "id": "5",
+            "specie": "Green Iguana",
+            "animal": "lizard",
+            "latin_name": "Iguana iguana",
+            "image": "green-iguana.jpg",
+            "life_span": "12-15",
+            "price": 60
+        },
+        {
+            "id": "6",
+            "specie": "Boa constrictor",
+            "animal": "snake",
+            "latin_name": "Boa constrictor",
+            "image": "boa.jpg",
+            "life_span": "20-25",
+            "price": 70
+        },
+        {
+            "id": "7",
+            "specie": "Green tree python",
+            "animal": "snake",
+            "latin_name": "Morelia viridis",
+            "image": "green-tree-python.jpg",
+            "life_span": "15-20",
+            "price": 200
+        },
+        {
+            "id": "8",
+            "specie": "Carpet python",
+            "animal": "snake",
+            "latin_name": "Morelia spilota",
+            "image": "carpet-python.jpg",
+            "life_span": "15-20",
+            "price": 150
+        },
+        {
+            "id": "9",
+            "specie": "Bearded Dragon",
+            "animal": "lizard",
+            "latin_name": "Pogona vitticeps",
+            "image": "bearded-dragon.jpg",
+            "life_span": "10-15",
+            "price": 40
+        },
+        {
+            "id": "10",
+            "specie": "Savannah monitor",
+            "animal": "lizard",
+            "latin_name": "Varanus exanthematicus",
+            "image": "savannah-monitor.jpeg",
+            "life_span": "8-10",
+            "price": 125
+        }
+    ]
+}
