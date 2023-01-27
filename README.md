@@ -1,4 +1,2 @@
 # Reptile-Store-API
-##Technologies 
-###React
-###Express
+**Main goal**
