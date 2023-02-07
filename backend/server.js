@@ -7,8 +7,17 @@ const port = process.env.PORT || 5000;
 const app = express();
 console.log(path.join(__dirname, "public"));
 
-app.use("/assets", express.static(path.join(__dirname, "/public")));
 app.use("/api/reptiles", getReptiles);
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../frontend/dist")));
+  app.get("*", (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    return res.sendFile(
+      path.resolve(__dirname, "../", "frontend", "dist", "index.html")
+    );
+  });
+}
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

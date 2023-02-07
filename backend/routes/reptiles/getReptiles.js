@@ -33,7 +33,7 @@ router.get("/", (req, res) => {
     sortedData = _.sortBy(data, "price").reverse();
   }
 
-  res.header("Access-Control-Allow-Origin", *);
+  res.header("Access-Control-Allow-Origin", "*");
   res.json(sortedData);
 });
 
