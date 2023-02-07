@@ -37,6 +37,7 @@ export default function HomeScreen() {
     const { id, specie, image, price, latin_name, life_span } = item;
     return (
       <Card
+        key={id}
         id={id}
         specie={specie}
         image={image}
