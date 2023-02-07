@@ -3,7 +3,7 @@ const dotenv = require("dotenv").config();
 const getReptiles = require("./routes/reptiles/getReptiles");
 const path = require("path");
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 6000;
 const app = express();
 console.log(path.join(__dirname, "public"));
 
