@@ -5,7 +5,6 @@ const path = require("path");
 
 const port = process.env.PORT || 6000;
 const app = express();
-console.log(path.join(__dirname, "public"));
 
 app.use("/api/reptiles", getReptiles);
 
